@@ -44,4 +44,5 @@ void calculator(void){
         printf("You typed wrong score.\n");
     }
     printf("Your grade is %s.\n", grade);
+    calculator();
 }
